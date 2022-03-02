@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form-page.component.css']
 })
 export class FormPageComponent implements OnInit {
-
+  checkbox1: "on" | "off" = "off"
+  checkbox: "on" | "off" = "on"
   constructor() { }
 
   ngOnInit(): void {
